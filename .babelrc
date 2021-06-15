@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-env": { "targets": { "chrome": 76, "node": 11 } },
+        "transform-runtime": { "corejs": false },
+        "styled-jsx": {},
+        "class-properties": {},
+        "preset-react": { "runtime": "automatic", "importSource": "@emotion/react" }
+      }
+    ]
+  ],
+
+  "plugins": [
+    ["@babel/plugin-proposal-private-property-in-object", { "loose": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    ["@babel/plugin-proposal-private-methods", { "loose": true }]
+  ]
+}

@@ -1,0 +1,10 @@
+*.cache
+#*.log
+
+.DS_Store
+.env.local
+.next
+.vscode
+
+node_modules
+

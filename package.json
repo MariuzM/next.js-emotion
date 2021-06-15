@@ -1,0 +1,33 @@
+{
+  "name": "next.js-emotion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sb": "start-storybook -p 6006 -s ./public --no-dll"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@types/react": "17.0.11",
+    "babel-loader": "^8.2.2",
+    "eslint": "7.28.0",
+    "eslint-config-next": "11.0.0",
+    "prettier": "^2.3.1",
+    "typescript": "4.3.2"
+  }
+}
